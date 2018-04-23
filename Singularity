@@ -24,3 +24,5 @@ From: ucr-singularity/cuda-9.0-base
     # and limitations.  
     pip install --no-cache-dir opencv-contrib-python    
 
+    # Install Pydensecrf
+    pip install git+https://github.com/lucasb-eyer/pydensecrf.git
