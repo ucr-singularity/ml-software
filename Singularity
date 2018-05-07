@@ -26,3 +26,7 @@ From: ucr-singularity/cuda-9.0-base
 
     # Install Pydensecrf
     pip install git+https://github.com/lucasb-eyer/pydensecrf.git
+
+    # Set locale in environment
+    echo 'export LC_ALL=C' >>$SINGULARITY_ENVIRONMENT
+
