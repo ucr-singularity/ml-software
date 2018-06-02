@@ -29,4 +29,8 @@ From: ucr-singularity/cuda-9.0-base
 
     # Set locale in environment
     echo 'export LC_ALL=C' >>$SINGULARITY_ENVIRONMENT
+    
+    #Keras ml package
+    pip install keras
+    pip install keras_vggface
 
