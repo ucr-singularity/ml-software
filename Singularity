@@ -33,4 +33,8 @@ From: ucr-singularity/cuda-9.0-base
     #Keras ml package
     pip install keras
     pip install keras_vggface
+    
+    #For keras generator
+    pip install bcolz
+    
 
