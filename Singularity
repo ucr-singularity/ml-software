@@ -13,7 +13,8 @@ From: ucr-singularity/cuda-9.0-base
     pip install --no-cache-dir Theano==1.0.1
 
     # Keras
-    pip install --no-cache-dir keras==2.1.5
+    #pip install --no-cache-dir keras==2.1.5
+    pip install --no-cache-dir keras=1.2.2
 
     # Pytorch, per pytorch.org recommendation
     pip install --no-cache-dir https://download.pytorch.org/whl/cu90/torch-0.3.1-cp27-cp27mu-linux_x86_64.whl
