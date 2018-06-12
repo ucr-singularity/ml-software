@@ -33,13 +33,14 @@ From: ucr-singularity/cuda-9.0-base
     
     #Keras ml package
     #pip install keras
-    pip install keras_vggface
+    pip install --no-cache-dir keras_vggface
     
     #For keras generator
-    pip install bcolz
+    pip install --no-cache-dir bcolz
     
     #Neuro-Imaging package
     pip install --no-cache-dir nibabel
     pip install --no-cache-dir niftynet
+    pip install --no-cache-dir SimpleITK
     
 
