@@ -31,14 +31,14 @@ From: ucr-singularity/cuda-9.0-base
     echo 'export LC_ALL=C' >>$SINGULARITY_ENVIRONMENT
     
     #Keras ml package
-    pip install keras
+    #pip install keras
     pip install keras_vggface
     
     #For keras generator
     pip install bcolz
     
     #Neuro-Imaging package
-    pip install nibabel
-    pip install niftynet
+    pip install --no-cache-dir nibabel
+    pip install --no-cache-dir niftynet
     
 
