@@ -39,5 +39,6 @@ From: ucr-singularity/cuda-9.0-base
     
     #Neuro-Imaging package
     pip install nibabel
+    pip install niftynet
     
 
