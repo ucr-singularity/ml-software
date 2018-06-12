@@ -37,4 +37,7 @@ From: ucr-singularity/cuda-9.0-base
     #For keras generator
     pip install bcolz
     
+    #Neuro-Imaging package
+    pip install nibabel
+    
 
