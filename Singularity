@@ -43,4 +43,6 @@ From: ucr-singularity/cuda-9.0-base
     pip install --no-cache-dir niftynet
     pip install --no-cache-dir SimpleITK
     
+    #Parallel Processing
+    pip install --no-cahce-dir joblib
 
