@@ -45,4 +45,7 @@ From: ucr-singularity/cuda-9.0-base
     
     #Parallel Processing
     pip install --no-cache-dir joblib
+    
+    #Progess
+    pip install --no-cache-dir tqdm
 
