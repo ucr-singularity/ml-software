@@ -48,4 +48,7 @@ From: ucr-singularity/cuda-9.0-base
     
     #Progess
     pip install --no-cache-dir tqdm
+    
+    #Sklearn update
+    pip install --no-cache-dir scikit-learn==0.19.2
 
