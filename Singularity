@@ -52,4 +52,7 @@ From: ucr-singularity/cuda-9.0-base
     
     #Sklearn update
     pip install --no-cache-dir scikit-learn==0.19.2
+    
+    #Biomedical Denoising library
+    pip install --no-cache-dir csbdeep
 
