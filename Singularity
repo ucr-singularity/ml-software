@@ -55,4 +55,7 @@ From: ucr-singularity/cuda-9.0-base
     
     #Biomedical Denoising library
     pip install --no-cache-dir csbdeep
+    #Dependencies for CSBDeep
+    pip install --no-cache-dir tifffile
+    
 
