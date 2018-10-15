@@ -58,4 +58,7 @@ From: ucr-singularity/cuda-9.0-base
     #Dependencies for CSBDeep
     pip install --no-cache-dir tifffile
     
+    #Uncompress package 7z
+    apt-get install p7zip-full p7zip-rar
+    
 
