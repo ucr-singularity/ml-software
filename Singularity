@@ -60,5 +60,6 @@ From: ucr-singularity/cuda-9.0-base
     
     #Uncompress package 7z
     apt-get update && apt-get -y install p7zip-full p7zip-rar
+    apt-get -y install dtrx
     
 
