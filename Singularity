@@ -59,6 +59,6 @@ From: ucr-singularity/cuda-9.0-base
     pip install --no-cache-dir tifffile
     
     #Uncompress package 7z
-    apt-get install p7zip-full p7zip-rar
+    apt-get update && apt-get -y install p7zip-full p7zip-rar
     
 
