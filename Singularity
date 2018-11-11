@@ -65,3 +65,5 @@ From: ucr-singularity/cuda-9.0-base
     #Cluster Analysis
     pip install --no-cache-dir yellowbrick
 
+    # Deepdish
+    pip install --no-cache-dir deepdish
