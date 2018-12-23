@@ -68,5 +68,10 @@ From: ucr-singularity/cuda-9.0-base
     # Deepdish
     pip install --no-cache-dir deepdish
     
-    #Gunicorn for website deployment
-    pip install --no-cache-dir gunicorn
+    # Installing dependencies for FACES project
+	pip install --no-cache-dir imutils
+	pip install --no-cache-dir dlib
+	pip install --no-cache-dir progressbar2
+	pip install --no-cache-dir flask
+	pip install --no-cache-dir flask_cors
+	pip install --no-cache-dir gunicorn
