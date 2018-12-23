@@ -67,3 +67,6 @@ From: ucr-singularity/cuda-9.0-base
 
     # Deepdish
     pip install --no-cache-dir deepdish
+    
+    #Gunicorn for website deployment
+    pip install --no-cache-dir gunicorn
