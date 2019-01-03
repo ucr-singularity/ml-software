@@ -78,4 +78,4 @@ From: ucr-singularity/cuda-9.0-base
     pip install --no-cache-dir face_recognition
     
     #additional
-    pip install pytube
+    pip install --no-cache-dir pytube
